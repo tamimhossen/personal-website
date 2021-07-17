@@ -1,0 +1,118 @@
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 2%;
+    margin: 3%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.half-width img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 70px;
+}
+
+.top-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    width: 95%;
+}
+
+.pink-highlight{
+    color: rgb(185, 11, 104);
+    font-weight: 900;
+}
+
+p{
+    color: grey;
+}
+
+.link-button{
+    background-image: linear-gradient(45deg, rgb(185, 11, 104), rgb(226, 112, 173));
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    padding: 5px 10px;
+    background-color: gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.biography-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.font-bold{
+    font-family: 'Poppins', sans-serif;
+}
+
+.work-section{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.one-third{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    margin-left: 10px;
+}
+
+.work-img{
+    width: 90%;
+}
+
+.align{
+    text-align: center;
+}
+
+.client-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.color{
+    color: black;
+}
+
+.hcolor{
+    color: grey;
+}
+
+.email-div{
+    background-image: linear-gradient(45deg, rgb(214, 20, 124), rgb(241, 66, 159));
+    height: 150px;
+    width: 500px;
+    margin-top: 50px;
+    position: relative;
+    left: 32%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.email-div p, h2{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
